@@ -110,7 +110,7 @@ var swiper = new Swiper(".mySwiper", {
 ### slide per view 설정
 
 > 아래 사진과 같은 swiper에서는 끝에 슬라이드가 잘리는데 다음화면으로 넘어갈 때 
->  ~ slides per View : "auto"
+> slides per View : "auto"
 > slides per Group : 5
 >
 > * 화면에 보이는 슬라이드 갯수를 조절해버리면 원래 크기가 틀어진다
