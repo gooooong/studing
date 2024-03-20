@@ -1,4 +1,11 @@
 ---
+title: Nineteen Years Later
+author: Harry Potter
+date: July 31, 2016
+output:
+  rmarkdown::html_document:
+    theme: lumen
+---
 <style type="text/css">
     @font-face {
         font-family: 'Pretendard-Regular';
@@ -10,7 +17,6 @@
         font-family: 'Pretendard-Regular';
     }
 </style>
----
 
 
 
