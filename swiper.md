@@ -1,32 +1,12 @@
----
-title: Nineteen Years Later
-author: Harry Potter
-date: July 31, 2016
-output:
-  rmarkdown::html_document:
-    theme: lumen
----
-<style type="text/css">
-    @font-face {
-        font-family: 'Pretendard-Regular';
-        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-        font-weight: 400;
-        font-style: normal;
-    }
-    body {
-        font-family: 'Pretendard-Regular';
-    }
-</style>
 
 
 
-swiper 정리
-=============
+# <span style="font-size:250%">swiper</span> 
 
 &nbsp;
 
 
-#### 기본 설정
+## 기본 설정
 > [swiper](https://swiperjs.com/get-started) 시작하기 사이트
 
 > [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드 <br>
@@ -44,7 +24,7 @@ swiper 정리
 &nbsp;
 
 ---
-#### 기본 문법
+## 기본 문법
 ```html
 
  <div class="swiper mySwiper">                     <!-- swiper + 스크립트에서 사용할 class 설정 -->
@@ -67,7 +47,8 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 ---
-#### 스크립트 설정
+## 스크립트 설정
+
 ```html
 <script>
 var swiper = new Swiper(".mySwiper", {
@@ -129,7 +110,7 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 ---
-### slide per view 설정
+## <b>slide per view</b> 설정
 
 > 아래 사진과 같은 swiper에서는 6번째 슬라이드가 잘린다  <br>
 > 슬라이드 설정 시
