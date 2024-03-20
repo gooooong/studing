@@ -1,3 +1,19 @@
+---
+<style type="text/css">
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+    body {
+        font-family: 'Pretendard-Regular';
+    }
+</style>
+---
+
+
+
 swiper 정리
 =============
 
@@ -109,7 +125,8 @@ var swiper = new Swiper(".mySwiper", {
 ---
 ### slide per view 설정
 
-> 아래 사진과 같은 swiper에서는 끝에 슬라이드가 잘리는데 다음화면으로 넘어갈 때  <br>
+> 아래 사진과 같은 swiper에서는 6번째 슬라이드가 잘린다  <br>
+> 슬라이드 설정 시
 > slides per View : "auto" <br>
 > slides per Group : 5
 >
@@ -117,6 +134,12 @@ var swiper = new Swiper(".mySwiper", {
 > * 슬라이드 그룹 6개로 하면 6 번째 슬라이드 안보이고 넘어간다
 
 <img src="/images/tving-captuer.png" width="100%" title="tving 화면캡쳐"></img><br/>
+
+&nbsp;
+
+---
+### 반응형 Breakpoints
+
 ```javascript
 var swiper = new Swiper(".mySwiper", {
 
