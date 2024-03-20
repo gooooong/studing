@@ -1,20 +1,25 @@
 swiper 정리
 =============
 
+&nbsp;
 
 
 #### 기본 설정
->[swiper](https://swiperjs.com/get-started) 시작하기
->[swiper-downlode](/file/swiper-11.0.7)
+>[swiper](https://swiperjs.com/get-started) 시작하기 사이트
+
+>[swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드
+>[swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일 다운로드
+
 ```html
  <!-- script 주소 가져오기 -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
 
 <!-- 또는 -->
 <!--파일 다운로드 후 해당 script-js file, script-css file 가져오기  -->
-<link rel="stylesheet" href="js/swiper/swiper.min.css">
+<link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
 <script src="js/swiper/swiper-bundle.min.js"></script>
 ```
+&nbsp;
 
 ---
 #### 기본 문법
@@ -37,6 +42,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 </script>
 ```
+&nbsp;
+
 ---
 #### 스크립트 설정
 ```html
@@ -96,4 +103,29 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: true, // 원할시 사용
 });
 </script>
+```
+&nbsp;
+
+---
+### slide per view 설정
+
+> 아래 사진과 같은 swiper에서는 끝에 슬라이드가 잘리는데 다음화면으로 넘어갈 때 
+>  ~ slides per View : "auto"
+> slides per Group : 5
+>
+> * 화면에 보이는 슬라이드 갯수를 조절해버리면 원래 크기가 틀어진다
+> * 슬라이드 그룹 6개로 하면 6 번째 슬라이드 안보이고 넘어간다
+
+<img src="/images/tving-captuer.png" width="100%" title="tving 화면캡쳐"></img><br/>
+```javascript
+var swiper = new Swiper(".mySwiper", {
+
+
+ breakpoints: {
+        769: { // 769px 이하 
+            slidesPerView: "auto", 
+            slidesPerGroup: 5, 
+        },
+    },
+});
 ```
