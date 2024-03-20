@@ -2,8 +2,10 @@ swiper 정리
 =============
 
 
+
 #### 기본 설정
 >[swiper](https://swiperjs.com/get-started) 시작하기
+>[swiper-downlode](/file/swiper-11.0.7)
 ```html
  <!-- script 주소 가져오기 -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
