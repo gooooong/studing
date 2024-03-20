@@ -7,7 +7,7 @@ swiper 정리
 #### 기본 설정
 > [swiper](https://swiperjs.com/get-started) 시작하기 사이트
 
-> [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드
+> [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드 <br>
 > [swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일 다운로드
 
 ```html
@@ -109,8 +109,8 @@ var swiper = new Swiper(".mySwiper", {
 ---
 ### slide per view 설정
 
-> 아래 사진과 같은 swiper에서는 끝에 슬라이드가 잘리는데 다음화면으로 넘어갈 때 
-> slides per View : "auto"
+> 아래 사진과 같은 swiper에서는 끝에 슬라이드가 잘리는데 다음화면으로 넘어갈 때  <br>
+> slides per View : "auto" <br>
 > slides per Group : 5
 >
 > * 화면에 보이는 슬라이드 갯수를 조절해버리면 원래 크기가 틀어진다
