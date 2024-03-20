@@ -5,10 +5,10 @@ swiper 정리
 
 
 #### 기본 설정
->[swiper](https://swiperjs.com/get-started) 시작하기 사이트
+> [swiper](https://swiperjs.com/get-started) 시작하기 사이트
 
->[swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드
->[swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일 다운로드
+> [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드
+> [swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일 다운로드
 
 ```html
  <!-- script 주소 가져오기 -->
