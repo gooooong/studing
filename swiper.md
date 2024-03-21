@@ -233,6 +233,9 @@ var swiper = new Swiper(".mySwiper", {
 > 애매하게 걸쳐진 슬라이드를 설정 해보자
 
 ![](https://velog.velcdn.com/images/gooooo__o/post/9fa783f5-db6b-432e-9bbb-dda293994698/image.png)
+&nbsp;
+
+이해를 돕기위해 모형으로 만들어 보았다
 
 ![](https://velog.velcdn.com/images/goooo__o/post/3bf9fbf2-e983-42a5-bb12-017708d78eb4/image.png)
 
