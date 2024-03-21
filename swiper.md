@@ -323,21 +323,23 @@ var swiper = new Swiper(".mySwiper", {
     }
     
 ```
+
 &nbsp;
+
 >javasctipt
 
 ```javascript
 
-	const SWIPER = new Swiper('.myswiper', {
-    	spaceBetween: 33,       // 각 슬라이드 사이의 간격
-        slidesPerView: 'auto',  // 화면에 보여질 슬라이드 갯수
-        slidesPerGroup: 5,      // 한번에 넘어갈 슬라이드 갯수
+        const SWIPER = new Swiper('.myswiper', {
+    	    spaceBetween: 33,       // 각 슬라이드 사이의 간격
+            slidesPerView: 'auto',  // 화면에 보여질 슬라이드 갯수
+            slidesPerGroup: 5,      // 한번에 넘어갈 슬라이드 갯수
            
-        navigation: {           // 페이지 넘기는 버튼
-            nextEl: ".swiper-button-next",
-	        prevEl: ".swiper-button-prev", 
-        },  
-    });
+            navigation: {           // 페이지 넘기는 버튼
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev", 
+            },  
+        });
 
 ```
 
@@ -350,10 +352,9 @@ var swiper = new Swiper(".mySwiper", {
 <img src="/images/swiper_test_slideperview_01.png" alt="">
 
 >
-> * slidesPerView 다른 숫자로 바꿀시 원래 크기가 틀어진다
+> * slidesPerView 다른 숫자로 바꿀시 원래 크기가 틀어진다 <br>
 > -- 화면에 보여지는 갯수를 억지로 맞춰버리는 듯 하다
-> <br>
-> * 슬라이드 그룹 6개로 하면 6 번째 슬라이드 안보이고 넘어간다
+> * 슬라이드 그룹 6개로 하면 6 번째 슬라이드 안보이고 넘어간다<br>
 > -- 당연한 소린가?
 
 &nbsp;
