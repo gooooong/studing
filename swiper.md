@@ -229,7 +229,7 @@ var swiper = new Swiper(".mySwiper", {
 ---
 ## ex 01
 
-> 아래 사진과 같은 swiper에서는 6번째 슬라이드가 잘린다
+> 아래 사진과 같은 swiper에서는 6번째 슬라이드가 잘린다 <br>
 > 애매하게 걸쳐진 슬라이드를 설정 해보자
 
 ![](https://velog.velcdn.com/images/gooooo__o/post/9fa783f5-db6b-432e-9bbb-dda293994698/image.png)
