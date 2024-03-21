@@ -1,19 +1,26 @@
 
+---
+TVING 클론 코딩을 하다가 swiper에 대해 정보가 부족하구나 싶어서 작성하게 되었다.
+내가 해보고 몰랐던 부분 위주로 작성해 본다.
 
+---
+---
+# <span style="font-size:250%">swiper ?</span> 
+슬라이드를 보다 편하게 사용할수 있게 도와주는 <span style="background:#555">**슬라이드 라이브러리**</span> 
 
-# <span style="font-size:250%">swiper</span> 
 
 &nbsp;
 
 
 ## 기본 설정
-> [swiper](https://swiperjs.com/get-started) 시작하기 사이트
+> [https://swiperjs.com/](https://swiperjs.com/get-started) 스와이퍼 사이트
 
-> [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일 다운로드 <br>
-> [swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일 다운로드
+> [swiper-css](/file/swiper/swiper-bundle.min.css) --> css 파일
+> [swiper-js](/file/swiper/swiper-bundle.min.js) --> js 파일
 
 ```html
- <!-- script 주소 가져오기 -->
+<!-- CDN 방식 -->
+<!-- script 주소 가져오기 -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
 
 <!-- 또는 -->
@@ -24,7 +31,7 @@
 &nbsp;
 
 ---
-## 기본 문법
+## 기본 작성법
 ```html
 
  <div class="swiper mySwiper">                     <!-- swiper + 스크립트에서 사용할 class 설정 -->
@@ -49,7 +56,7 @@ var swiper = new Swiper(".mySwiper", {
 ---
 ## 스크립트 설정
 
-```html
+```javascript
 <script>
 var swiper = new Swiper(".mySwiper", {
     // 화면에 보이고자하는 슬라이드 갯수
@@ -120,7 +127,7 @@ var swiper = new Swiper(".mySwiper", {
 > * 화면에 보이는 슬라이드 갯수를 조절해버리면 원래 크기가 틀어진다
 > * 슬라이드 그룹 6개로 하면 6 번째 슬라이드 안보이고 넘어간다
 
-<img src="/images/tving-captuer.png" width="100%" title="tving 화면캡쳐"></img><br/>
+![](https://velog.velcdn.com/images/gooooo__o/post/9fa783f5-db6b-432e-9bbb-dda293994698/image.png)
 
 &nbsp;
 
@@ -129,13 +136,38 @@ var swiper = new Swiper(".mySwiper", {
 
 ```javascript
 var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3, // 기본 초기값 설정, 제일 작은 화면
+    spaseBtween: 5, 
+    
+    // 760px 이상
+    breakpoints: {
+        760: { // 760px min-width
+            slidesPerView: 3,
+            spaseBtween: 10, 
+            slidesPerGroup: 3, 
+        },
+    },
 
-
- breakpoints: {
-        769: { // 769px 이하 
-            slidesPerView: "auto", 
-            slidesPerGroup: 5, 
+    // 1024px 이상
+    breakpoints: {
+        1024: { // 1024px min-width 
+            slidesPerView: 5, 
+            spaseBtween: 15, 
+            slidesPerGroup: 5,
         },
     },
 });
 ```
+&nbsp;
+
+---
+### 예제
+<img src="/images/swiper_test_01.svg">
+
+> 위와 같은 슬라이드를 만들어 보자
+> - width : 100%
+> - heigth : 600px
+> - padding : 100px 
+> - 각 slide 간격 : 10px
+> - 넘치는 화면 보이기 
+> -  
