@@ -1,4 +1,8 @@
 
+
+<img src="/images/swiper_logo.svg" alt="">
+
+
 ---
 TVING 클론 코딩을 하다가 swiper에 대해 정보가 부족하구나 싶어서 작성하게 되었다.
 내가 해보고 몰랐던 부분 위주로 작성해 본다.
