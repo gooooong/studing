@@ -1,6 +1,4 @@
-
-![](https://velog.velcdn.com/images/goooo__o/post/f609d7a2-ccaa-479c-8d25-0d3d9ce513c1/image.svg)
-
+![](https://velog.velcdn.com/images/goooo__o/post/e2e09b15-9cbe-4df9-bde6-9308d8d9b940/image.svg)
 
 
 ---
