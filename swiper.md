@@ -1,6 +1,6 @@
 
+![](https://velog.velcdn.com/images/goooo__o/post/f609d7a2-ccaa-479c-8d25-0d3d9ce513c1/image.svg)
 
-<img src="/images/swiper_logo.svg" alt="">
 
 
 ---
