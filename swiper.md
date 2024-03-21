@@ -141,8 +141,7 @@ var swiper = new Swiper(".mySwiper", {
 
 >  기본 css 설정 값
 
-```html 
-<style>
+```css
 
 /* swiper ----------------------- */
     .swiper {
@@ -221,7 +220,7 @@ var swiper = new Swiper(".mySwiper", {
         background: var(--swiper-pagination-color, var(--swiper-theme-color));
     }
   
-  </style>
+
 ```
 &nbsp;
 
