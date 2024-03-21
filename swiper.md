@@ -32,7 +32,8 @@ TVING 클론 코딩을 하다가 swiper에 대해 정보가 부족하구나 싶�
 &nbsp;
 
 ---
-> 기본 작성법
+### 기본 작성법
+> Swiper 적용하기 위한 기본 문법이다
 
 ```html
 
@@ -56,11 +57,14 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 ---
-> script 설정법
+### script 설정법
+> javascript 적용하는 방법이다
+> 아래 간단한 표로 다시 정리해 뒀다
 
 ```javascript
 
 var swiper = new Swiper(".mySwiper", {
+
     // 화면에 보이고자하는 슬라이드 갯수
     slidesPerView: 3, // "auto" , 1, 2, 3, 4 ···
 
@@ -119,7 +123,7 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 ---
->스크립트 옵션 정리 
+### 스크립트 옵션 정리 
 
 |옵션|값|설명|비고|
 |:---:|:---:|:---:|:---|
@@ -135,6 +139,7 @@ var swiper = new Swiper(".mySwiper", {
 |mousewheel|boolen 또는 object|마우스휠로 슬라이드 이동|<br><br>&nbsp;|
 |pagination|el:".swiper-pagination",<br>clickable: true|페이지 네비게이션 바|<br>custom class<br>"swiper-pagination"<br><br>custom 버튼 class<br>"swiper-pagination-bullet"<br><br>active 시<br>"swiper-pagination-bullet-active"<br>&nbsp;<br>&nbsp;|
 |navigation|prevEl<br>".swiper-button-prev",<br>nextEl<br>".swiper-button-next"|페이지 네비게이션 버튼 설정|<br>custom<br>"swiper-button-prev"<br>"swiper-button-next" class <br>&nbsp;|
+
 &nbsp;
 
 &nbsp;
@@ -142,8 +147,8 @@ var swiper = new Swiper(".mySwiper", {
 
 ---
 
->  기본 css 설정 값
-
+###  기본 css 설정 값
+> Swiper 적용시 기본으로 설정 되어있는 css 값이다
 ```css
 
 /* swiper ----------------------- */
@@ -225,12 +230,13 @@ var swiper = new Swiper(".mySwiper", {
   
 
 ```
+
 &nbsp;
 
 &nbsp;
 
 ---
-## ex 01
+## 예제 01
 
 > 아래 사진과 같은 swiper에서는 6번째 슬라이드가 잘린다 <br>
 > 애매하게 걸쳐진 슬라이드를 설정 해보자
@@ -238,11 +244,13 @@ var swiper = new Swiper(".mySwiper", {
 ![](https://velog.velcdn.com/images/gooooo__o/post/9fa783f5-db6b-432e-9bbb-dda293994698/image.png)
 &nbsp;
 
-이해를 돕기위해 모형으로 만들어 보았다
+>이해를 돕기위해 모형으로 만들어 보았다
 
 ![](https://velog.velcdn.com/images/goooo__o/post/3bf9fbf2-e983-42a5-bb12-017708d78eb4/image.png)
 
 &nbsp;
+
+
 > html
 
 ```html
