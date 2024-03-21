@@ -270,10 +270,8 @@ var swiper = new Swiper(".mySwiper", {
 
 > css
 
-```html
+```css
 
-  <style>
-  
   /* --- 페이지 설정 ------------------- */
     .wrap {
         width: 1700px;
@@ -311,7 +309,6 @@ var swiper = new Swiper(".mySwiper", {
         background: url(/images/arrow_prev.png); /* 새로운 버튼 이미지 적용 */
     }
     
-  </style>
 ```
 &nbsp;
 >javasctipt
