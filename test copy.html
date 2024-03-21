@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/js/swiper/swiper-bundle.min.css">
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        body { font-weight: 700; color: seagreen; background-color: #111;}
+        .swiper-slide { display: flex; justify-content: center; align-items: center;}
+
+        
+        .wrap {
+            width: 1700px;
+            background: #555;
+            padding: 100px;
+            margin: 500px auto;
+        }
+        .myswiper {
+            overflow: visible; /* 기본값 "hidden"이여서 안보지는거 보이게 설정 */ 
+        }    
+    
+        .myswiper .swiper-slide {
+            width: 246px;
+            height: 354px;
+            background-color: white;
+            border-radius: 5px;  
+            font-size: 150px
+        }
+        /* swiper 버튼 설정 */
+        .swiper-button-next,
+        .swiper-button-prev {
+            position: absolute; /* 슬라이드 밖에 위치하길 원해서 absolute적용 */
+            top: 22px;
+            width: 100px;
+            height: 100%;
+            color: transparent; /* 기본 버튼 화살표 색상 없애줌 */
+        }
+        .swiper-button-next {
+            right: -100px;
+            background: url(/images/arrow_next.png); /* 새로운 버튼 이미지 적용 */
+        }
+        .swiper-button-prev {
+            left: -100px;
+            background: url(/images/arrow_prev.png); /* 새로운 버튼 이미지 적용 */
+        }
+        .swiper .swiper-pagination {
+            bottom: -80px;
+        }
+        .swiper .swiper-pagination .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            background-color: white;
+        }
+        .swiper .swiper-pagination .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+        
+    </style>
+
+    <script src="/js/swiper/swiper-bundle.min.js"></script> 
+</head>
+<body>
+    <div class="wrap">
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">1</div>
+                <div class="swiper-slide">2</div>
+                <div class="swiper-slide">3</div>
+                <div class="swiper-slide">4</div>
+                <div class="swiper-slide">5</div>
+                <div class="swiper-slide">6</div>
+                <div class="swiper-slide">7</div>
+                <div class="swiper-slide">8</div>
+                <div class="swiper-slide">9</div>
+                <div class="swiper-slide">10</div>
+                <div class="swiper-slide">11</div>
+                <div class="swiper-slide">12</div>
+                <div class="swiper-slide">13</div>
+            </div>       
+            <div class="swiper-button-next"></div>        
+            <div class="swiper-button-prev"></div> 
+<img src="/images/swiper_test_slideperview_01.png" alt="">
+        </div>
+    </div>
+<!-- 중요!!!! 
+    - "swiper-pagination-bullet"은 추가 하면 안된다
+    - 알아서 생성됨
+-->
+
+
+<!--  -->
+    <script>
+        const SWIPER = new Swiper('.myswiper', {
+            spaceBetween: 33,
+            slidesPerView: "auto",
+            slidesPerGroup: 5,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev", 
+            },  
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+    </script>
+    
+</body>
+</html>
+<table>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+</table>

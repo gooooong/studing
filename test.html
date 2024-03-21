@@ -4,30 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
-    <div class="style">
-        
+    <link rel="stylesheet" href="/js/swiper/swiper-bundle.min.css">
+    <style>
+        *{margin: 0; padding: 0;}
+        .wrap {
+            width: 1100px;
+            background: #ccc;
+            padding: 100px;
+                .swiper {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            font-size: 200px;
+                            font-weight: 700;
+                            color: #222;
+                            text-align: center;
+                            line-height: 600px;
+                            height: 600px;
+                            background-color: white;
+                        }
+                    }
+                }
+            }
+    </style>
 
-    </div>
+    <script src="/js/swiper/swiper-bundle.min.js"></script> 
 </head>
 <body>
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">slide 1</div>
-            <div class="swiper-slide">slide 1</div>
-            <div class="swiper-slide">slide 1</div>
+    <div class="wrap">
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">1</div>
+                <div class="swiper-slide">2</div>
+                <div class="swiper-slide">3</div>
+            </div>
+            <div class="swiper-pagination"></div>         
+            <div class="swiper-button-next"></div>        
+            <div class="swiper-button-prev"></div> 
         </div>
-        <div class="swiper-pagination"></div>         
-        <div class="swiper-button-next"></div>        
-        <div class="swiper-button-prev"></div> 
     </div>
 
     <script>
-        const SWIPER = new Swiper('.swiper', {
-
-        });
+        const SWIPER = new Swiper('.myswiper', {
+            slidesPerView: 1,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev", 
+            },  
+            pagination: {
+                el: ".swiper-pagination", 
+                clickable: true, 
+            },
+    });
 
     </script>
     
 </body>
 </html>
+<table>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+</table>
