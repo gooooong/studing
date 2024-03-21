@@ -365,35 +365,36 @@ var swiper = new Swiper(".mySwiper", {
 
 > **SlidesPerView: auto**
 >  - 내가 설정한 width, spassBtween 모두 그대로 설정된다
+
 > ![](https://velog.velcdn.com/images/goooo__o/post/2388c7e0-aff2-47c9-bebf-2d6e93cfebec/image.png)
 
 
 > **SlidesPerView: 1**
-> - 화면에 1개의 slide만을 보여줌
+> - 화면에 1개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/db0463c6-8bc1-4968-bc07-b69c43bc65cd/image.png)
 
 > **SlidesPerView: 2**
-> - 화면에 2개의 slide만을 보여줌
+> - 화면에 2개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/0c98823c-7676-4521-ab34-3de21913a1b8/image.png)
 
 > **SlidesPerView: 3**
-> - 화면에 3개의 slide만을 보여줌
+> - 화면에 3개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/88e89823-8d14-41d4-bee0-7fb21008cbf6/image.png)
 
 > **SlidesPerView: 4**
-> - 화면에 4개의 slide만을 보여줌
+> - 화면에 4개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/7a342075-b93f-4c56-9d8c-40f44e6dfd88/image.png)
 
 > **SlidesPerView: 5**
-> - 화면에 5개의 slide만을 보여줌
+> - 화면에 5개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/aa5d5bfb-03bb-4460-82f9-a277d87f17d7/image.png)
 
 > **SlidesPerView: 6**
-> - 화면에 6개의 slide만을 보여줌
+> - 화면에 6개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/6f2c5fac-1f22-40a1-8734-12a228538e5a/image.png)
 
 > **SlidesPerView: 7**
-> - 화면에 7개의 slide만을 보여줌
+> - 화면에 7개의 slide만을 보여줌<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/96490722-ae12-4083-af96-e7454f496d6a/image.png)
 
 
