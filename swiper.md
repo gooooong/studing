@@ -137,6 +137,9 @@ var swiper = new Swiper(".mySwiper", {
 |navigation|prevEl<br>".swiper-button-prev",<br>nextEl<br>".swiper-button-next"|페이지 네비게이션 버튼 설정|<br>custom<br>"swiper-button-prev"<br>"swiper-button-next" class <br>&nbsp;|
 &nbsp;
 
+&nbsp;
+
+
 ---
 
 >  기본 css 설정 값
