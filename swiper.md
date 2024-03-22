@@ -536,17 +536,19 @@ var swiper = new Swiper(".mySwiper", {
 
 > 정상적인 Swiper
 <br>
-![](https://velog.velcdn.com/images/goooo__o/post/b90d4280-1c06-461f-8925-d4f6f55d9baf/image.png)
+![정상적인 swiper](./images/swiper_error_01.png)
 
 &nbsp;
 
 
 > 오류난 Swiper
 <br>
-![](https://velog.velcdn.com/images/goooo__o/post/1ce151c4-9a93-41c8-a910-db7fe2849bfd/image.png)
+![오류난 swiper](./images/swiper_error.png)
+
 &nbsp;
 > 설명
-![](https://velog.velcdn.com/images/goooo__o/post/e064984a-1d81-482b-a4c6-a50a99e01dc5/image.png)
+![오류난거 설명 swiper](./images/swiper_error_01_1.png)
+
 
 
 
