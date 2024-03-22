@@ -400,7 +400,8 @@ var swiper = new Swiper(".mySwiper", {
 ![](https://velog.velcdn.com/images/goooo__o/post/7afe88b2-a74a-4b5f-84ae-f82ca82e709e/image.png)
 
 > **SlidesPerView: 7**
-> - 화면에 7개의 slide만을 보여줌<br>
+> - 화면에 7개의 slide만을 보여줌
+
 ![](https://velog.velcdn.com/images/goooo__o/post/385153b4-e157-4920-87b8-88c2b070d4d8/image.png)
 
 
@@ -469,7 +470,6 @@ var swiper = new Swiper(".mySwiper", {
 ```javascript
 // javascript
 
- <script>
         const SWIPER = new Swiper('.myswiper', {
             spaceBetween: 33,     
             slidesPerView: 'auto',
