@@ -432,11 +432,13 @@ var swiper = new Swiper(".mySwiper", {
 ![오류난거 설명 swiper](./images/swiper_error_01_1.png)
 
 
+&nbsp;
 
+&nbsp;
 
+&nbsp;
 
-
-### 같은 상황에서 Pagination을 설정해보자
+## 예제 01<br> Pagination을 추가해보자
 
 > html
 
@@ -545,36 +547,6 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 &nbsp;
-
-
-#### 만약 "slidesPerView: 'auto'"로 했을 경우
-
-```html
-      <div class="swiper-pagination">
-          <div class="swiper-pagination-bullet"></div>
-      </div>
-```
-> 마지막 슬라이드가 안 맞을 수 있다
-
-&nbsp;
-
-> 정상적인 Swiper
-![정상적인 swiper](./images/swiper_error_01.png)
-
-&nbsp;
-
-
-> 오류난 Swiper
-![오류난 swiper](./images/swiper_error.png)
-
-&nbsp;
-> 설명
-![오류난거 설명 swiper](./images/swiper_error_01_1.png)
-
-
-
-
-
 
 
 
