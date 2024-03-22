@@ -52,8 +52,7 @@ TVING 클론 코딩을 하다가 swiper에 대해 정보가 부족하구나 싶�
   </div>
 
 <script>
-var swiper = new Swiper(".mySwiper", {
-});
+    var swiper = new Swiper(".mySwiper", { });
 </script>
 ```
 &nbsp;
