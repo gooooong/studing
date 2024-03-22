@@ -366,12 +366,13 @@ var swiper = new Swiper(".mySwiper", {
 > **SlidesPerView: auto**
 >  - 내가 설정한 width, spassBtween 모두 그대로 설정된다
 
-> ![](https://velog.velcdn.com/images/goooo__o/post/2388c7e0-aff2-47c9-bebf-2d6e93cfebec/image.png)
+![](https://velog.velcdn.com/images/goooo__o/post/c7e85780-5210-4779-8ec5-c2a464fd7dfc/image.png)
+
 
 
 > **SlidesPerView: 1**
 > - 화면에 1개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/db0463c6-8bc1-4968-bc07-b69c43bc65cd/image.png)
+![](https://velog.velcdn.com/images/goooo__o/post/f60af693-4824-45f0-b5b7-78f69670a1f3/image.png)
 
 > **SlidesPerView: 2**
 > - 화면에 2개의 slide만을 보여줌<br>
