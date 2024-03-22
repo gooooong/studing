@@ -517,20 +517,6 @@ var swiper = new Swiper(".mySwiper", {
 
 &nbsp;
 
-> 정상적인 Swiper
-<br>
-![](https://velog.velcdn.com/images/goooo__o/post/b90d4280-1c06-461f-8925-d4f6f55d9baf/image.png)
-
-
-&nbsp;
-
-
-> 오류난 Swiper
-<br>
-![](https://velog.velcdn.com/images/goooo__o/post/1ce151c4-9a93-41c8-a910-db7fe2849bfd/image.png)
-&nbsp;
-> 설명
-![](https://velog.velcdn.com/images/goooo__o/post/e064984a-1d81-482b-a4c6-a50a99e01dc5/image.png)
 
 &nbsp;
 
@@ -548,8 +534,19 @@ var swiper = new Swiper(".mySwiper", {
 ```
 > 마지막 슬라이드가 안 맞을 수 있다
 
-![](https://velog.velcdn.com/images/goooo__o/post/cf6ff4d9-2e36-4dbb-9336-56daccfc7631/image.png)
+> 정상적인 Swiper
+<br>
+![](https://velog.velcdn.com/images/goooo__o/post/b90d4280-1c06-461f-8925-d4f6f55d9baf/image.png)
 
+&nbsp;
+
+
+> 오류난 Swiper
+<br>
+![](https://velog.velcdn.com/images/goooo__o/post/1ce151c4-9a93-41c8-a910-db7fe2849bfd/image.png)
+&nbsp;
+> 설명
+![](https://velog.velcdn.com/images/goooo__o/post/e064984a-1d81-482b-a4c6-a50a99e01dc5/image.png)
 
 
 
