@@ -514,6 +514,8 @@ var swiper = new Swiper(".mySwiper", {
 > * bullet 갯수는 알아서 생성됨
 ![](https://velog.velcdn.com/images/goooo__o/post/54a85f3a-1fe8-4d15-8e1a-707ea4070b60/image.png)
 
+![](https://velog.velcdn.com/images/goooo__o/post/1ce151c4-9a93-41c8-a910-db7fe2849bfd/image.png)
+![](https://velog.velcdn.com/images/goooo__o/post/0b2b56b9-ce6f-4708-88a3-325e3372c9f6/image.png)
 &nbsp;
 
 &nbsp;
