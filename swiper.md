@@ -119,7 +119,7 @@ var swiper = new Swiper(".mySwiper", {
     // 키보드 조작 설정
     keyboard: true, // 원할시 사용
 });
-</script>
+
 ```
 &nbsp;
 
