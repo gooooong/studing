@@ -414,11 +414,6 @@ var swiper = new Swiper(".mySwiper", {
 
 #### 만약 위 상황이 아닌 화면을 넘어가지 않고 정확히 맞았는데<br>"slidesPerView: 'auto'"로 했을 경우
 
-```html
-      <div class="swiper-pagination">
-          <div class="swiper-pagination-bullet"></div>
-      </div>
-```
 > 마지막 슬라이드가 안 맞을 수 있다
 
 &nbsp;
