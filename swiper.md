@@ -535,14 +535,12 @@ var swiper = new Swiper(".mySwiper", {
 > 마지막 슬라이드가 안 맞을 수 있다
 
 > 정상적인 Swiper
-<br>
 ![정상적인 swiper](./images/swiper_error_01.png)
 
 &nbsp;
 
 
 > 오류난 Swiper
-<br>
 ![오류난 swiper](./images/swiper_error.png)
 
 &nbsp;
