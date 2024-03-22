@@ -513,8 +513,23 @@ var swiper = new Swiper(".mySwiper", {
 > * 가운데 아래 부분에 pagination 아주 잘 들어감
 > * bullet 갯수는 알아서 생성됨
 ![](https://velog.velcdn.com/images/goooo__o/post/54a85f3a-1fe8-4d15-8e1a-707ea4070b60/image.png)
+&nbsp;
 
+&nbsp;
+
+> 정상적인 Swiper
+<br>
+![](https://velog.velcdn.com/images/goooo__o/post/b90d4280-1c06-461f-8925-d4f6f55d9baf/image.png)
+
+
+&nbsp;
+
+
+> 오류난 Swiper
+<br>
 ![](https://velog.velcdn.com/images/goooo__o/post/1ce151c4-9a93-41c8-a910-db7fe2849bfd/image.png)
+&nbsp;
+> 설명
 ![](https://velog.velcdn.com/images/goooo__o/post/e064984a-1d81-482b-a4c6-a50a99e01dc5/image.png)
 
 &nbsp;
