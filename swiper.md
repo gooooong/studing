@@ -444,14 +444,11 @@ var swiper = new Swiper(".mySwiper", {
             <div class="swiper-button-prev"></div> 
                
             <!-------------------------------------->
-            <div class="swiper-pagination"></div>    <!-- 추가 -->
+            <div class="swiper-pagination"></div>    추가
             <!-------------------------------------->
          
-          중요!!  "swiper-pagination-bullet"은 알아서 생성
-          			때문에 추가하지 않아두 된다
-          
-     
-
+중요!!  "swiper-pagination-bullet"은 알아서 생성 되기 때문에 추가 할 필요 없다
+       
         </div>
     </div>
 ```
@@ -484,8 +481,8 @@ var swiper = new Swiper(".mySwiper", {
             },  
           
           /* ----------------------------- */
-           pagination: {					     /* 추가 */
-                el: ".swiper-pagination",
+           pagination: {					
+                el: ".swiper-pagination",   추가
                 clickable: true,
             },
           /* ----------------------------- */
@@ -494,8 +491,8 @@ var swiper = new Swiper(".mySwiper", {
 ```
 > css :custom
 
-```html
-  <style>
+```css
+
         .swiper .swiper-pagination {
             bottom: -80px;
         }
@@ -508,7 +505,7 @@ var swiper = new Swiper(".mySwiper", {
         .swiper .swiper-pagination .swiper-pagination-bullet-active {
             opacity: 1;
         }
-  </style>
+  
 ```
 &nbsp;
 
@@ -531,6 +528,9 @@ var swiper = new Swiper(".mySwiper", {
           <div class="swiper-pagination-bullet"></div>
       </div>
 ```
+> 마지막 슬라이드가 안 맞을 수 있다
+
+![](https://velog.velcdn.com/images/goooo__o/post/cf6ff4d9-2e36-4dbb-9336-56daccfc7631/image.png)
 
 
 
