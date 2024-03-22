@@ -371,32 +371,37 @@ var swiper = new Swiper(".mySwiper", {
 
 
 > **SlidesPerView: 1**
-> - 화면에 1개의 slide만을 보여줌<br>
+> - 화면에 1개의 slide만을 보여줌
+
 ![](https://velog.velcdn.com/images/goooo__o/post/f60af693-4824-45f0-b5b7-78f69670a1f3/image.png)
 
 > **SlidesPerView: 2**
-> - 화면에 2개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/0c98823c-7676-4521-ab34-3de21913a1b8/image.png)
+> - 화면에 2개의 slide만을 보여줌
 
+![](https://velog.velcdn.com/images/goooo__o/post/922fa993-1321-4a19-8429-55f46eecd486/image.png)
 > **SlidesPerView: 3**
-> - 화면에 3개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/88e89823-8d14-41d4-bee0-7fb21008cbf6/image.png)
+> - 화면에 3개의 slide만을 보여줌
+
+![](https://velog.velcdn.com/images/goooo__o/post/71e3e038-4dbb-41b8-ab38-25141b234626/image.png)
 
 > **SlidesPerView: 4**
-> - 화면에 4개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/7a342075-b93f-4c56-9d8c-40f44e6dfd88/image.png)
+> - 화면에 4개의 slide만을 보여줌
+
+![](https://velog.velcdn.com/images/goooo__o/post/6b309b81-78dc-4113-9714-4eb5fbd28faf/image.png)
 
 > **SlidesPerView: 5**
-> - 화면에 5개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/aa5d5bfb-03bb-4460-82f9-a277d87f17d7/image.png)
+> - 화면에 5개의 slide만을 보여줌
+
+![](https://velog.velcdn.com/images/goooo__o/post/5976921d-05c3-456d-a08d-ffba251b0946/image.png)
 
 > **SlidesPerView: 6**
-> - 화면에 6개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/6f2c5fac-1f22-40a1-8734-12a228538e5a/image.png)
+> - 화면에 6개의 slide만을 보여줌
+
+![](https://velog.velcdn.com/images/goooo__o/post/7afe88b2-a74a-4b5f-84ae-f82ca82e709e/image.png)
 
 > **SlidesPerView: 7**
 > - 화면에 7개의 slide만을 보여줌<br>
-![](https://velog.velcdn.com/images/goooo__o/post/96490722-ae12-4083-af96-e7454f496d6a/image.png)
+![](https://velog.velcdn.com/images/goooo__o/post/385153b4-e157-4920-87b8-88c2b070d4d8/image.png)
 
 
 
