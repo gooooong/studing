@@ -439,6 +439,8 @@ var swiper = new Swiper(".mySwiper", {
 &nbsp;
 
 ## 예제 01<br> Pagination을 추가해보자
+&nbsp;
+
 
 > html
 
@@ -513,6 +515,8 @@ var swiper = new Swiper(".mySwiper", {
           
        });
 ```
+&nbsp;
+
 > css :custom
 
 ```css
@@ -548,19 +552,32 @@ var swiper = new Swiper(".mySwiper", {
 
 &nbsp;
 
+---
+## 예제 02
+![](https://velog.velcdn.com/images/goooo__o/post/e7e11c59-5ebe-4061-b08a-0547f36d2308/image.svg)
 
 
-
-
-
-
-
+> 위와 같은 슬라이드를 만들어 보자
+> 	- 화면 : 1100px
+> 	- 화면에 슬라이드 1페이지씩 보이기
+> 	- 슬라이드 1페이지씩 넘기기
+> 	- 각 슬라이드 사이 간격 : 20px
+> 	- 슬라이드 높이 : 600px
+> 	- padding : 100px 
+> 	- ovserflow : 보이기 
+> 	- 이전, 다음 버튼 화면 끝으로 붙이기
+> 	- 이전, 다음 버튼 사이즈 높이 : 100%, 넓이 : 79px
 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+
 ---
-### 반응형 Breakpoints
+## 반응형 Breakpoints
 
 ```javascript
 var swiper = new Swiper(".mySwiper", {
@@ -588,18 +605,8 @@ var swiper = new Swiper(".mySwiper", {
 ```
 &nbsp;
 
----
-### 예제
-![](https://velog.velcdn.com/images/goooo__o/post/e7e11c59-5ebe-4061-b08a-0547f36d2308/image.svg)
+&nbsp;
+
+&nbsp;
 
 
-> 위와 같은 슬라이드를 만들어 보자
-> 	- 화면 : 1100px
-> 	- 화면에 슬라이드 1페이지씩 보이기
-> 	- 슬라이드 1페이지씩 넘기기
-> 	- 각 슬라이드 사이 간격 : 20px
-> 	- 슬라이드 높이 : 600px
-> 	- padding : 100px 
-> 	- ovserflow : 보이기 
-> 	- 이전, 다음 버튼 화면 끝으로 붙이기
-> 	- 이전, 다음 버튼 사이즈 높이 : 100%, 넓이 : 79px
