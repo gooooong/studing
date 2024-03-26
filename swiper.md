@@ -138,7 +138,7 @@ var swiper = new Swiper(".mySwiper", {
 |centeredSlides|boolean|활성화된 슬라이드가<br>가운데 보이게 지정|<br>true : 가운데로 설정<br>false (기본값)<br>&nbsp;|
 |breakpoints|slidesPerView,<br>slidesPerGroup,<br>spaceBetween,<br>slidesPerColumn<br>만 사용가능|화면 넓이에 따라 레이아웃 변경<br>(반응형 슬라이드)|<br>breakpoints: {<br>&nbsp;&nbsp;&nbsp;&nbsp;760: {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slidesPerView: 3,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spaseBtween: 10,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slidesPerGroup: 3,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>},<br>&nbsp;|
 |mousewheel|boolen 또는 object|마우스휠로 슬라이드 이동|<br><br>&nbsp;|
-|pagination|el:".swiper-pagination",<br>clickable: true|페이지 네비게이션 바|<br>custom class<br>"swiper-pagination"<br><br>custom 버튼 class<br>"swiper-pagination-bullet"<br><br>active 시<br>"swiper-pagination-bullet-active"<br>&nbsp;<br>&nbsp;|
+|pagination|el:".swiper-pagination",<br>clickable: true<br>type: "progressbar"|페이지 네비게이션 바|<br>custom class<br>"swiper-pagination"<br><br>custom 버튼 class<br>"swiper-pagination-bullet"<br><br>active 시<br>"swiper-pagination-bullet-active"<br>&nbsp;<br>&nbsp;|
 |navigation|prevEl<br>".swiper-button-prev",<br>nextEl<br>".swiper-button-next"|페이지 네비게이션 버튼 설정|<br>custom<br>"swiper-button-prev"<br>"swiper-button-next" class <br>&nbsp;|
 
 &nbsp;
